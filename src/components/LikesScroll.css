@@ -1,0 +1,36 @@
+.scrollContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    height:180px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 100px;
+    border-right: 2px solid rgb(197, 37, 144);
+    border-bottom: 2px solid rgb(197, 37, 144);
+}
+.main{
+    padding-right: 80px;
+    padding-left: 100px;
+    width:100%;
+}
+.scrollContainer>p{
+    color:rgb(204, 204, 204)
+}
+@media (max-width: 767px){
+    .scrollContainer{
+        height:120px;
+    width: 120px;
+    }
+    .scrollContainer>h1{
+        font-size: 15px;
+    }
+    .scrollContainer>p{
+        font-size: 10px;
+    }
+    .main{
+        padding-left: 2px;
+    }
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from './components/Cards';
+import Header from './components/Header';
+import LikesScroll from './components/LikesScroll';
+import Reviews from './components/Reviews';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{backgroundColor: 'rgba(8, 22, 34, 0.555)'}}>
+        <div className="paddingcontainer">
+     <Header/>
+     <div className='body-text'>
+     <h1>Cari Cari</h1>
+     <p>Live from their sofa to yours. Get closer to your favorite artists, and never miss out.</p>
+     </div>
+     <LikesScroll/>
+     <Cards/>
+     <Reviews/>
+    </div>
+    </div>
     </div>
   );
 }

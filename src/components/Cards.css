@@ -1,0 +1,16 @@
+.cardText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardText>p{
+    color:rgb(150, 98, 1)
+}
+.cardText>h1>div{
+    border:1.5px solid rgb(44, 98, 248);
+    width:30%;
+}
+.cards{
+    display: flex;
+    justify-content:space-between;
+}
