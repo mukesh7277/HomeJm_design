@@ -19,7 +19,7 @@
 .scrollContainer>p{
     color:rgb(204, 204, 204)
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
     .scrollContainer{
         height:120px;
     width: 120px;

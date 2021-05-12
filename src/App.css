@@ -18,7 +18,7 @@
   word-spacing:0.1rem;
   letter-spacing:0.1rem
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .body-text{
     width:80%;
   }
@@ -39,7 +39,7 @@
   padding-left: 20px;
   padding-right:20px;
 }
-@media (min-width: 767px){
+@media (min-width: 768px){
   .paddingcontainer{
     padding-left: 60px;
     padding-right:60px;
